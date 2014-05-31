@@ -19,10 +19,10 @@ Basic:
 
 This will automatically create `/home/fluentd` and `ruby-1.9.3`
 
-class { 'rvm':
-      user    => 'fluentd',
-      version => '1.9.3',
-     }
+	class { 'rvm':
+      		user    => 'fluentd',
+      		version => '1.9.3',
+     	}
 
 ## Dependencies
 
